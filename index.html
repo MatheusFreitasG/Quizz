@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz - Esse é o meu quiz</title>
+    <script src="js/quizz.js" defer></script>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <section id="p1" class="perguntas">
+        <h1>Qual posição eu sou no vôlei?</h1>
+        <p id="resultado1" class="resultado"></p>
+        <div class="respostas">
+            <p onclick="verificarResposta1('b', '1')">Oposto</p>
+            <p onclick="verificarResposta1('a', '1')">Levantador</p>
+            <p onclick="verificarResposta1('b', '1')">Libero</p>
+            <p onclick="verificarResposta1('b', '1')">Ponteiro</p>
+        </div>
+        <button id="proxima" onclick="proximaPergunta('true')">Proxima pergunta</button>
+    </section>
+    <section id="p1" class="perguntas">
+        <h1>Qual posição eu sou no vôlei?</h1>
+        <p id="resultado1" class="resultado"></p>
+        <div class="respostas">
+            <p onclick="verificarResposta1('b', '2')">Oposto</p>
+            <p onclick="verificarResposta1('a', '2')">Levantador</p>
+            <p onclick="verificarResposta1('b', '2')">Libero</p>
+            <p onclick="verificarResposta1('b', '2')">Ponteiro</p>
+        </div>
+        <button id="proxima" onclick="proximaPergunta('true')">Proxima pergunta</button>
+    </section>
+    <section id="p1" class="perguntas">
+        <h1>Qual posição eu sou no vôlei?</h1>
+        <p id="resultado1" class="resultado"></p>
+        <div class="respostas">
+            <p onclick="verificarResposta1('b', '3')">Oposto</p>
+            <p onclick="verificarResposta1('a', '3')">Levantador</p>
+            <p onclick="verificarResposta1('b', '3')">Libero</p>
+            <p onclick="verificarResposta1('b', '3')">Ponteiro</p>
+        </div>
+        <button id="proxima" onclick="proximaPergunta('true')">Proxima pergunta</button>
+    </section>
+    <section id="p4" class="perguntas pergunta4">
+        <h1>Qual a função do Levantador?</h1>
+        <p id="resultado4" class="resultado"></p>
+        <div class="respostas">
+            <p onclick="verificarResposta4('b', '4')">Atacar e bloquear</p>
+            <p onclick="verificarResposta4('a', '4')">Levantar e bloquear</p>
+            <p onclick="verificarResposta4('b', '4')">Defender e passar</p>
+            <p onclick="verificarResposta4('b', '4')">Passar e atacar</p>
+        </div>
+        
+        <button id="proxima4" onclick="proximaPergunta4('true')">Proxima pergunta</button>
+    </section>
+    <section id="p5" class="perguntas pergunta5">
+        <h1>Com quantos pontos acabam o set?</h1>
+        <p id="resultado5"></p>
+        <div class="respostas">
+            <p onclick="verificarResposta5('a', '5')">25 pontos</p>
+            <p onclick="verificarResposta5('b', '5')">15 pontos</p>
+            <p onclick="verificarResposta5('b', '5')">30 pontos</p>
+            <p onclick="verificarResposta5('b', '5')">12 pontos</p>
+        </div>
+        
+        <button id="proxima5" onclick="proximaPergunta5('true')">Proxima pergunta</button>
+    </section>
+    <section id="p6" class="perguntas pergunta6">
+        <h1 id='ultimoText'>
+            Você acabou o quiz, Parabens!!!
+        </h1>
+    </section>
+
+</body>
+</html>

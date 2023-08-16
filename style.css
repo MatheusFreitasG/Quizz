@@ -1,0 +1,49 @@
+ @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+
+    background-color: #4c03ab;
+}
+h1{
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+}
+p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    height: 100px;
+    font-size: 24px;
+    background-color: #f5e400;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.perguntas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.respostas {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 26px;
+}
+
+#p2, #p3, #p4, #p5, #p6{
+    display: none;
+}
+ 
